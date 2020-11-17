@@ -1,5 +1,13 @@
 server:
- post:8080
+  port: 8101
 spring:
-    appliction:
-        name:test
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:optimist-du/springcloud-config.git
+          search-paths: #读取目录
+            - springcloud-config
+      label: master #读取分支
