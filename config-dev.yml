@@ -12,4 +12,4 @@ spring:
             - springcloud-config
       label: master #读取分支
 config:
- info: git@github.com:optimist-du/springcloud-config.git11
+  info: git@github.com:optimist-du/springcloud-config.git11
