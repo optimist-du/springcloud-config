@@ -1,1 +1,5 @@
-
+server:
+ post:8080
+spring:
+ appliction:
+  name:test
