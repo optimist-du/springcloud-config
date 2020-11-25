@@ -5,5 +5,5 @@ spring:
     zookeeper:
       connect-string: localhost:2181
 test:
- optimist: hello world
+ optimist: hello world11
 
