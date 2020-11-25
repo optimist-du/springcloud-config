@@ -3,5 +3,7 @@ spring:
     name: service-member
   cloud:
     zookeeper:
-      connect-string: localhost:2181——111
+      connect-string: localhost:2181
+test:
+ optimist: hello world
 
